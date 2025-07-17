@@ -1,0 +1,10 @@
+loginMessage: '...Waking server up, come back in a minute...'
+maxPlayers: 20
+minecraftCommand: java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar
+restartDelay: 5000
+serverName: SleepingServer, waiting for his prince...
+serverOnlineMode: false
+serverPort: 20126
+startMinecraft: true
+useBlacklistFiles: false
+useWhitelistFile: false
