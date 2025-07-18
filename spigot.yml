@@ -51,7 +51,7 @@ world-settings:
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
-    nerf-spawner-mobs: false
+    nerf-spawner-mobs: true
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     end-portal-sound-radius: 0
@@ -80,13 +80,13 @@ world-settings:
       glowberry-modifier: 100
       pitcherplant-modifier: 100
     entity-activation-range:
-      animals: 32
-      monsters: 32
-      raiders: 48
-      misc: 16
-      water: 16
-      villagers: 32
-      flying-monsters: 32
+      animals: 16
+      monsters: 24
+      raiders: 40
+      misc: 8
+      water: 8
+      villagers: 16
+      flying-monsters: 40
       wake-up-inactive:
         animals-max-per-tick: 4
         animals-every: 800
@@ -103,15 +103,15 @@ world-settings:
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
       villagers-active-for-panic: true
-      tick-inactive-villagers: true
+      tick-inactive-villagers: false
       ignore-spectators: false
     entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 25
+      players: 32
+      animals: 32
+      monsters: 32
+      misc: 24
       display: 64
-      other: 40
+      other: 32
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
