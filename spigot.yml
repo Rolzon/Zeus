@@ -89,16 +89,16 @@ world-settings:
       flying-monsters: 32
       wake-up-inactive:
         animals-max-per-tick: 4
-        animals-every: 1200
+        animals-every: 800
         animals-for: 100
         monsters-max-per-tick: 8
-        monsters-every: 400
+        monsters-every: 300
         monsters-for: 100
         villagers-max-per-tick: 4
-        villagers-every: 600
+        villagers-every: 400
         villagers-for: 100
         flying-monsters-max-per-tick: 8
-        flying-monsters-every: 200
+        flying-monsters-every: 150
         flying-monsters-for: 100
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
@@ -109,9 +109,9 @@ world-settings:
       players: 48
       animals: 48
       monsters: 48
-      misc: 32
-      display: 128
-      other: 64
+      misc: 25
+      display: 64
+      other: 40
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
