@@ -14,8 +14,6 @@
   "Msh": {
     "Debug": 1,
     "ID": "693ee65668b4af813eb9744bcd04abe4f54487e8",
-    "MshPort": 0,
-    "MshPortQuery": 0,
     "EnableQuery": false,
     "TimeBeforeStoppingEmptyServer": 3600,
     "SuspendAllow": false,
