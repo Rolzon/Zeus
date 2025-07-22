@@ -1,0 +1,32 @@
+{
+  "Server": {
+    "Folder": "./",
+    "FileName": "server.jar",
+    "Version": "Paper 1.20.1",
+    "Protocol": 763
+  },
+  "Commands": {
+    "StartServer": "java <Commands.StartServerParam> -jar <Server.FileName> nogui",
+    "StartServerParam": "-Xms256M -Xmx4096M",
+    "StopServer": "stop",
+    "StopServerAllowKill": 10
+  },
+  "Msh": {
+    "Debug": 1,
+    "ID": "693ee65668b4af813eb9744bcd04abe4f54487e8",
+    "MshPort": 0,
+    "MshPortQuery": 0,
+    "EnableQuery": false,
+    "TimeBeforeStoppingEmptyServer": 60,
+    "SuspendAllow": false,
+    "SuspendRefresh": 0,
+    "InfoHibernation": "&a¡Modo hibernacion! &bConéctate para despertar \nal Dragón dormidó. &6¡Bienvenido a DragonHosting!",
+    "InfoStarting": "&a¡RRRRRRRRRRRRRRRRRR! &bEl Dragón esta mostrando \nsu verdadero poder. &6¡Bienvenido a DragonHosting!",
+    "NotifyUpdate": true,
+    "NotifyMessage": true,
+    "Whitelist": [],
+    "WhitelistImport": false,
+    "ShowResourceUsage": false,
+    "ShowInternetUsage": false
+  }
+}
