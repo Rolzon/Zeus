@@ -9,7 +9,7 @@
     "StartServer": "java <Commands.StartServerParam> -jar <Server.FileName> nogui",
     "StartServerParam": "-Xms256M -Xmx4096M",
     "StopServer": "stop",
-    "StopServerAllowKill": 10
+    "StopServerAllowKill": 25
   },
   "Msh": {
     "Debug": 1,
@@ -17,7 +17,7 @@
     "MshPort": 0,
     "MshPortQuery": 0,
     "EnableQuery": false,
-    "TimeBeforeStoppingEmptyServer": 60,
+    "TimeBeforeStoppingEmptyServer": 3600,
     "SuspendAllow": false,
     "SuspendRefresh": 0,
     "InfoHibernation": "&a¡Modo hibernacion! &bConéctate para despertar \nal Dragón dormidó. &6¡Bienvenido a DragonHosting!",
